@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>GIGPT Currently Under Construction</h1>
+        <h1>GIGPT is Currently Under Construction</h1>
       </main>
     </>
   )
