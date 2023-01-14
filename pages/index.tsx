@@ -23,7 +23,7 @@ function Home() {
               <a
                   href='https://www.linkedin.com/in/alfredoarriolajr/'
                   className='underline'>
-                  Alfredo Arriola Jr.
+                  Alfredo Arriola Jr. 
               </a>
           </p>
       </div>
