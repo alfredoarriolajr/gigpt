@@ -91,7 +91,7 @@ export function Chat() {
   }
 
   return (
-    <div className="rounded-2xl border-zinc-100  border-2 p-6 m-2">
+    <div className="rounded-2xl border-sky-400  border-2 p-6 m-2">
       {messages.map(({ message, who }, index) => (
         <ChatLine key={index} who={who} message={message} />
       ))}
@@ -100,7 +100,7 @@ export function Chat() {
 
       {messages.length < 2 && (
         <span className="mx-auto flex flex-grow text-gray-600 clear-both">
-          Type a message to start the conversation
+          Ask me something cool!
         </span>
       )}
       <InputMessage
