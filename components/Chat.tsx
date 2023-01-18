@@ -39,7 +39,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
         setInput('')
       }}
     >
-      Say
+      Send
     </Button>
   </div>
 )
@@ -99,7 +99,7 @@ export function Chat() {
       {loading && <LoadingChatLine />}
 
       {messages.length < 2 && (
-        <span className="mx-auto flex flex-grow text-gray-600 clear-both">
+        <span className="mx-auto flex flex-grow text-sky-400 clear-both">
           Ask me something cool!
         </span>
       )}
